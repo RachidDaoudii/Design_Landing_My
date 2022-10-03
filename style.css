@@ -61,6 +61,8 @@ body {
     font-weight: bold;
 }
 
+
+
 /* Header */
 /* section */
 .row {
@@ -322,11 +324,42 @@ body {
     }
 }
 
-@media (max-width: 760px){
+@media (max-width: 770px){
     .hero {
         width: 100%;
     }
+
     .row {
         display: block;
     }
+
+    .buttons li a{
+        display: none;
+    }
+
+    .header .container {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+    }
+
+    .links {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .container .row .col {
+        margin: auto;
+        width: 100%;
+    }
+
+    .container .row .hero {
+        margin-top: 30px;
+    }
+    
+
+    
 }
